@@ -14,8 +14,8 @@ void main() {
 
   // Informações opcionais
   String? siteOficial = null;
-  String? timeFavorito = 'Flamengo';
-   String? observacao;
+  String? timeFavorito ;
+   String? observacao   ;
 
 
   print("==== CADASTRO DO APLICATIVO ====");
@@ -31,7 +31,7 @@ void main() {
   print("Time favorito: ${timeFavorito ?? "Não informado"}");
 
   if (observacao != null) {
-    print("Observação: $observacao");
+    print("Observação: $observacao ");
   } else {
     print("Observação: Nenhuma observação cadastrada");
   }
