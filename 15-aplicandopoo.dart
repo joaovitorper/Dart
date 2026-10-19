@@ -34,7 +34,7 @@ class Paciente {
 void main() {
   Paciente paciente1 = Paciente(
     "João",
-    25,
+    60,
     36.5,
     "120/80",
   );
